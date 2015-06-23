@@ -33,8 +33,14 @@ You can combine functions:
 
  . Which correspond to the mathematic composition. The result of the fist function become the input of the second function
 
+```haskell
+(myOtherFunc . myFirstFunc) a
+```
  $ Replace parenthesis. Everything after $ will be executed before the things before the $ (everything after $ has a higher precedence)
 
+```haskell
+myOtherFunc $ myFirstFunc a
+```
  Haskell load by default the Prelude module which contains a lot of useful functions
 
  You can find all the documentation of Haskell on Hoogle
