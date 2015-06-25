@@ -8,7 +8,7 @@ FACSKELL is the Founders & Coders Haskell Club. We are currently learning Haskel
 
 Find and post your questions on [Reddit Haskell](https://www.reddit.com/r/haskell/), [Reddit Haskell Questions](https://www.reddit.com/r/haskellquestions) or on [Stackoverflow](http://stackoverflow.com/questions/tagged?tagnames=haskell)
 
-For a more detail list of documentation you can have a look at the (Haskell website)[https://www.haskell.org/documentation]
+For a more detail list of documentation you can have a look at the [Haskell website](https://www.haskell.org/documentation)
 
 # Why
 
