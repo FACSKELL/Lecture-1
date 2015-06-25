@@ -37,6 +37,32 @@ p :: (Int, Char)
 ```haskell
 l :: [Integer] -- a list is a head and a tail (x:xs)
 ```
+
+### Alias type
+You can use the keyword **type** to create an alias for a type.
+
+```haskell
+type St = String
+f :: St -> St
+```
+
+### Algebraic Data Type
+
+You can create a new type with the keyword **data**:
+
+```haskell
+data Tree = Empty | Leaf Int | Node Tree Tree
+```
+
+Here we create the **type constructor** Tree whith the following **data constructors**:
+
+- Empty
+- Leaf Int
+- Node Tree Tree
+
+Leaf and Node take parameters!
+type constructor and data constructor must begin with a capital letter!
+
 ## Combining functions
 
 You can combine functions:
