@@ -1,6 +1,20 @@
-**Some notes about Haskell**
 
-## What is Haskell
+# FACWHAT?
+
+FACSKELL is the Founders & Coders Haskell Club. We are currently learning Haskell by reading [CIS 194: Introduction to Haskell (Spring 2013)](http://www.seas.upenn.edu/~cis194/spring13/lectures.html) by [Brent Yorgey](https://byorgey.wordpress.com/). We are also learning from other books:
+- (Learn you a Haskell for great good)[http://learnyouahaskell.com/]
+- (Real world Haskell)[http://book.realworldhaskell.org/read/]
+
+
+Find and post your questions on (Reddit Haskell)[https://www.reddit.com/r/haskell/], (Reddit Haskell Questions)[https://www.reddit.com/r/haskellquestions] or on (Stackoverflow)[http://stackoverflow.com/questions/tagged?tagnames=haskell]
+
+For a more detail list of documentation you can have a look at the (Haskell website)[https://www.haskell.org/documentation]
+
+# Why
+
+Because learning Haskell is cool!
+
+# What is Haskell
 
 Haskell is:
 - Functional
@@ -13,7 +27,8 @@ Haskell is:
 
 ## Types
 
-Haskell has the usual types : Bool, Int, Integer, Char, String. It also has some more used types:
+Haskell has the usual types : Bool, Int, Integer, Char, String. The Char type is represented with single quote 'C', the Sting type is represented with double quotes "myString". Haskell has also some more useful types:
+
 - Pairs:
 ```haskell
 p :: (Int, Char)
